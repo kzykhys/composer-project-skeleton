@@ -1,0 +1,13 @@
+{
+    "name": "kzykhys/composer-project-skeleton",
+    "description": "Project Skeleton (Please update this file!)",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}

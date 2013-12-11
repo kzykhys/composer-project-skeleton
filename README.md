@@ -1,6 +1,8 @@
 My Project Skeleton (@kzykhys)
 ==============================
 
+[![Latest Stable Version](https://poser.pugx.org/kzykhys/composer-project-skeleton/v/stable.png)](https://packagist.org/packages/kzykhys/composer-project-skeleton)
+
 * PHPUnit ([See phpunit.xml.dist](phpunit.xml.dist))
 * Travis CI ([See .travis.yml](.travis.yml))
     * Coveralls

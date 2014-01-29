@@ -3,10 +3,15 @@ language: php
 php:
   - 5.5
   - 5.4
+  - hhvm
+
+matrix:
+  allow_failures:
+    - php: hhvm
 
 before_script:
   - composer require --no-update satooshi/php-coveralls:dev-master sensiolabs/security-checker:dev-master
-  - composer install --dev --no-interaction
+  - composer update --dev --no-interaction
 
 script:
   - mkdir -p build/logs
